@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-size: 14px;
+  background: #f0f8ff;
+}
+
+.count-container {
+  margin: 0;
+  width: 100%;
+  background: #ffffff;
+  text-align: center;
+  position: fixed;
+}
+
+.result-container {
+  margin: 0 auto;
+  width: 270px;
+  padding: 200px 15px 0 15px;
+  text-align: center;
+}
+
+#timer {
+  background: #e6e6fa;
+  height: 120px;
+  line-height: 120px;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.btn {
+  width: 72px;
+  height: 45px;
+  line-height: 45px;
+  background: #e6e6fa;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inactive {
+  opacity: .3;
+}
+
+.time-disp {
+  font-size: 32px;
+  padding: 16px;
+}
+
+.result-container div + div {
+  border-top: 1px solid #b0c4de
+}
+
+.record {
+  margin: 0;
+  width: 60px;
+  height: 40px;
+  background:  #e6e6fa;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  text-align: center;
+  position: fixed;
+  border: 0;
+  right: 4px;
+  bottom: 108px;
+}
+
+.record > a {
+  padding: 22px 0;
+  text-decoration:none;
+}
+
+.record > a:active {
+  color: inherit;
+}
+
+.save {
+  margin: 0;
+  width: 56px;
+  height: 40px;
+  background:  #e6e6fa;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  text-align: center;
+  position: fixed;
+  border: 0;
+  right: 4px;
+  bottom: 56px;
+}
+
+.fileout {
+  margin: 0;
+  width: 56px;
+  height: 40px;
+  background:  #e6e6fa;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  text-align: center;
+  position: fixed;
+  border: 0;
+  right: 4px;
+  bottom: 4px;
+}
+
+.dnone {
+  display: none;
+}
+
